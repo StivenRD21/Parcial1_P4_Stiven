@@ -1,25 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "NSGXkWcNMgA=",
+  "dgSpecHash": "a3ELf7QXiWo=",
   "success": true,
   "projectFilePath": "C:\\Programación IV\\Clase1\\Parcial1_P4_Stiven-main\\Parcial1_P4_Stiven-main\\Parcial1_P4_Stiven.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stive\\.nuget\\packages\\dapper\\2.1.89\\dapper.2.1.89.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.data.sqlclient\\7.1.0\\microsoft.data.sqlclient.7.1.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.data.sqlclient.extensions.abstractions\\7.1.0\\microsoft.data.sqlclient.extensions.abstractions.7.1.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.data.sqlclient.internal.logging\\7.1.0\\microsoft.data.sqlclient.internal.logging.7.1.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\7.1.0\\microsoft.data.sqlclient.sni.runtime.7.1.0.nupkg.sha512",
+    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.data.sqlite\\10.0.12\\microsoft.data.sqlite.10.0.12.nupkg.sha512",
+    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.12\\microsoft.data.sqlite.core.10.0.12.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.0\\microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.16.0\\microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.16.0\\microsoft.identitymodel.jsonwebtokens.8.16.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.identitymodel.logging\\8.16.0\\microsoft.identitymodel.logging.8.16.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.16.0\\microsoft.identitymodel.protocols.8.16.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.16.0\\microsoft.identitymodel.protocols.openidconnect.8.16.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.16.0\\microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\scalar.aspnetcore\\2.17.12\\scalar.aspnetcore.2.17.12.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\serilog.aspnetcore\\10.0.0\\serilog.aspnetcore.10.0.0.nupkg.sha512",
@@ -30,10 +20,10 @@
     "C:\\Users\\Stive\\.nuget\\packages\\serilog.sinks.console\\6.1.1\\serilog.sinks.console.6.1.1.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\serilog.sinks.debug\\3.0.0\\serilog.sinks.debug.3.0.0.nupkg.sha512",
     "C:\\Users\\Stive\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.18\\system.configuration.configurationmanager.9.0.18.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.16.0\\system.identitymodel.tokens.jwt.8.16.0.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.18\\system.security.cryptography.pkcs.9.0.18.nupkg.sha512",
-    "C:\\Users\\Stive\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.18\\system.security.cryptography.protecteddata.9.0.18.nupkg.sha512"
+    "C:\\Users\\Stive\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.12\\sqlitepclraw.bundle_e_sqlite3.2.1.12.nupkg.sha512",
+    "C:\\Users\\Stive\\.nuget\\packages\\sqlitepclraw.core\\2.1.12\\sqlitepclraw.core.2.1.12.nupkg.sha512",
+    "C:\\Users\\Stive\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.12\\sqlitepclraw.lib.e_sqlite3.2.1.12.nupkg.sha512",
+    "C:\\Users\\Stive\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.12\\sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg.sha512"
   ],
   "logs": [
     {
