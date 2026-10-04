@@ -6,29 +6,16 @@ namespace Parcial1_P4_Stiven.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class OperacionesController : ControllerBase
+public class OperacionesController(NumbersService numbersService) : ControllerBase
 {
-    private readonly NumbersService _numbersService;
-
-    public OperacionesController(NumbersService numbersService)
-    {
-        _numbersService = numbersService;
-    }
-
     [HttpGet("sumar/{numero}")]
     public async Task<IActionResult> SumarDoble(double numero)
     {
         double resultado = numero + numero;
         
-        var record = new NumberRecord 
-        {
-            Fecha = DateTime.Now,
-            Numero = numero,
-            Resultado = resultado
-        };
+        var record = new NumberRecord(0, DateTime.Now, numero, resultado);
 
-        // Guardar en SQLite
-        await _numbersService.SaveAsync(record);
+        await numbersService.SaveAsync(record);
 
         return Ok(new 
         { 
@@ -41,7 +28,7 @@ public class OperacionesController : ControllerBase
     [HttpGet("historial")]
     public async Task<IActionResult> ObtenerHistorial()
     {
-        var historial = await _numbersService.GetListAsync();
+        var historial = await numbersService.GetListAsync();
         return Ok(historial);
     }
 }

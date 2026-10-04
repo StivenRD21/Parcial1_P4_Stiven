@@ -4,14 +4,9 @@ using Parcial1_P4_Stiven.Models;
 
 namespace Parcial1_P4_Stiven.Services;
 
-public class NumbersService
+public class NumbersService(IConfiguration configuration)
 {
-    private readonly string _connectionString;
-
-    public NumbersService(IConfiguration configuration)
-    {
-        _connectionString = configuration.GetConnectionString("DefaultConnection")!;
-    }
+    private readonly string _connectionString = configuration.GetConnectionString("DefaultConnection")!;
 
     public async Task InitializeAsync()
     {
